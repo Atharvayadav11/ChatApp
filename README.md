@@ -21,15 +21,15 @@ NODE_ENV=development
 Install the dependencies and build the application:
 
 bash
+Copy code
 npm install
 npm run build
-
 3. Start the App
 Run the application:
 
 bash
+Copy code
 npm start
-
 Project Structure
 Backend
 The backend code is located in backend/src. Here’s the directory structure:
@@ -37,47 +37,30 @@ The backend code is located in backend/src. Here’s the directory structure:
 plaintext
 Copy code
 backend/src
-├── controllers     # Handles business logic for API routes
-├── models          # MongoDB schemas and data models
-├── routes          # API route definitions
-├── middlewares     # Custom middleware for request handling (e.g., authentication)
-├── lib             # Utility functions (e.g., Cloudinary configuration)
-└── index.js        # Entry point for the Node.js server
+├── controllers      # Handles business logic for API routes
+├── models           # MongoDB schemas and data models
+├── routes           # API route definitions
+├── middlewares      # Custom middleware for request handling (e.g., authentication)
+├── lib              # Utility functions (e.g., Cloudinary configuration)
+└── index.js         # Entry point for the Node.js server
 Frontend
 The frontend is built using Vite and React, with its code in frontend/src:
 
 plaintext
 Copy code
 frontend/src
-├── components      # Reusable React components
-│   ├── ui          # Includes skeleton loaders and reusable UI elements
-│   └── normal      # Standard components for the app
-├── lib             # Shared utility functions
-├── pages           # Defines individual pages (e.g., Home, Chat)
-├── store           # State management (e.g., Redux, Context API)
-├── app.jsx         # Main React entry file
+├── components       # Reusable React components
+│   ├── ui           # Includes skeleton loaders and reusable UI elements
+│   └── normal       # Standard components for the app
+├── lib              # Shared utility functions
+├── pages            # Defines individual pages (e.g., Home, Chat)
+├── store            # State management (e.g., Redux, Context API)
+├── app.jsx          # Main React entry file
 └── Other config files for Vite and project setup
-
-User Authentication
-Secure user registration and login using JWT, with encrypted password storage in MongoDB.
-
-Chat Functionality
-Real-time messaging between authenticated users using WebSockets and Socket.io.
-Persistent chat history stored in MongoDB for future access.
-
-User Interface
-A React-based chat UI with message input and display areas.
-Displays a list of currently online users.
-Online Presence Indicator
-Real-time “online” or “offline” status updates using WebSocket events.
-
-Basic UI Features
-Auto-scrolls chat to the latest message.
-Shows message timestamps for better context.
-Minimalist design for clean and functional user experience.
-
-Advanced Features
-"Typing..." indicator for real-time feedback.
-Media upload support with storage on a cloud service.
-Read receipts to indicate when messages are seen by the recipient.
-
+Features
+User Authentication: Secure user registration and login using JWT, with encrypted password storage in MongoDB.
+Chat Functionality: Real-time messaging between authenticated users using WebSockets and Socket.io. Persistent chat history stored in MongoDB for future access.
+User Interface: A React-based chat UI with message input and display areas. Displays a list of currently online users.
+Online Presence Indicator: Real-time “online” or “offline” status updates using WebSocket events.
+Basic UI Features: Auto-scrolls chat to the latest message. Shows message timestamps for better context. Minimalist design for clean and functional user experience.
+Advanced Features: "Typing..." indicator for real-time feedback. Media upload support with storage on a cloud service. Read receipts to indicate when messages are seen by the recipient.
