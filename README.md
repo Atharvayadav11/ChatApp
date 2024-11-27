@@ -1,8 +1,21 @@
 
-
 ---
 
 # ChatApp - Documentation
+
+## Demonstration
+
+You can access the hosted version of the project here:
+
+[ChatApp Hosted Version](https://chatapp-qdm6.onrender.com/)
+
+You can also view a demonstration of ChatApp in action through the following video:
+
+[ChatApp Demonstration Video](https://drive.google.com/file/d/1qj27H5fKvuWJidwsGdqXyQ8x62hoAz4c/view?usp=sharing)
+
+
+
+---
 
 ## Introduction
 
@@ -91,4 +104,4 @@ frontend/src
 - **Advanced Features**: "Typing..." indicator for real-time feedback. Media upload support with storage on a cloud service. Read receipts to indicate when messages are seen by the recipient.
 
 ---
-
+```
