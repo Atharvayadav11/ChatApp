@@ -9,9 +9,7 @@ You can access the hosted version of the project here:
 
 [ChatApp Hosted Version](https://chatapp-qdm6.onrender.com/)
 
-You can also view a demonstration of ChatApp in action through the following video:
 
-[ChatApp Demonstration Video](https://drive.google.com/file/d/1qj27H5fKvuWJidwsGdqXyQ8x62hoAz4c/view?usp=sharing)
 
 
 
